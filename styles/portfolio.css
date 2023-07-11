@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.text{
+    color: coral;
+}
+.butn{
+    border-radius: 5px;
+    background-color: coral;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    justify-content: space-between;
+}
+
+
+/* nav related styles*/
+nav {
+display:flex ;
+align-items: center;
+}
+.nav-title{
+    color:black ;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: coral;
+}
